@@ -121,7 +121,7 @@ php artisan migrate:fresh --seed
 php artisan serve
 ```
 
-**Seed demo** (`InventoryDemoSeeder`): `admin@example.com` / `password`, satu bisnis + contoh kategori/satuan/produk.
+**Seed demo** (`TokoAtkDemoSeeder`): skenario **Toko ATK Mandiri** — master lengkap (kategori bertingkat, satuan, supplier, pelanggan, 15+ produk), dua user (pemilik + staff), transaksi stok terposting (pembelian, dua penjualan, penyesuaian) + satu **draft** pembelian; saldo & ledger konsisten via `StockPostingService`. Login pemilik: `admin@tokoatkmandiri.test` / `password`; staff: `budi.staff@tokoatkmandiri.test` / `password`.
 
 ---
 
@@ -156,7 +156,7 @@ app/
   Services/             # StockPosting, BusinessSequence
   Support/              # BusinessContext
 database/migrations/
-database/seeders/       # InventoryDemoSeeder
+database/seeders/       # TokoAtkDemoSeeder
 routes/web.php
 docs/ARCHITECTURE.md    # dokumen ini
 ```
