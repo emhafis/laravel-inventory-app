@@ -17,8 +17,8 @@ A scalable multi-business inventory management system built with Laravel 10.
 - Tailwind CSS
 
 ## Screenshots
+<img width="1920" height="1080" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/480de462-7ff1-4ea0-9e02-238f1d40dcdb" />
 
-![Dashboard](public/screenshots/dashboard.png)
 
 ## Architecture
 
